@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="progressbar.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="progress">
+        <div class="progress__fill"></div>
+        <span class="progress__text">38%</span>
+      </div>
+      <h1>Certificates after completion of your course </h1>
+       <h1> •You will recieve your certificates on your email id• </h1>
+        
+          <h3>
+            Upload your certificates here :
+          </h3>
+        
+          <form action="/action_page.php"
+            enctype="multipart/form-data">
+            
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile" />
+            <br /><br />
+            <input type="submit" />
+          </form>
+          <h1>Internships related to your course </h1> 
+        <h2>VIA GEEKS FOR GEEKS</h2>
+        <p>Refer to the document below</p>
+        <p>On completion of the geeks for geeks course and availing the certificate from above, you may now refer to the link below and check out further certifications and internship FROM GEEKS FOR GEEKS </p>
+      <a href="https://docs.google.com/document/d/1o3szJ8fMHlMLiMO0CfxF5LVHgphtPJDduD_xVHM-RT4/edit?usp=sharing" target="_blank"><button>Link to the document with all geeks for geeks courses and internships</button></a>
+            <br>
+            <br>
+      <img src="login_image.jpg">
+</body>
+<script>
+    function updateProgressBar(progressBar, value) {
+  value = Math.round(value);
+  progressBar.querySelector(".progress__fill").style.width = `${value}%`;
+  progressBar.querySelector(".progress__text").textContent = `${value}%`;
+}
+
+const myProgressBar = document.querySelector(".progress");
+
+updateProgressBar(myProgressBar, 38);
+</script>
+</html>
