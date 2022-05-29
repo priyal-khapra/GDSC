@@ -14,3 +14,9 @@ PROGRESS BAR AND CERTIFICATE AVAILING
 DOCUMENT FOR CHECKING FOR FURTHER CERTIFICATIONS AND INTERNSHIPS THROUGH GEEKS FOR GEEKS 
 ![image](https://user-images.githubusercontent.com/91024411/170856325-9a825794-05e3-482a-aa78-2ec1b923cb9b.png)
 ![image](https://user-images.githubusercontent.com/91024411/170856336-eff371ea-e0ac-487b-9012-479b375bc1ac.png)
+
+TECH STACKS 
+HTML
+CSS
+Javascript 
+Web scraping via python 
